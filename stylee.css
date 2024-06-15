@@ -1,0 +1,185 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap')  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgb(10, 10, 10);
+    background: black;
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(20, 243, 20) !important;
+    /* important is color change*/
+}
+
+#navbarSupportedContent a {
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid rgb(19, 236, 19);
+    /* bottom on sea the code*/
+}
+
+#navbarSupportedContent button {
+    background: rgb(24, 216, 24);
+    width: 5rem;
+    border-radius: 20px;
+}
+#home{
+    
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(photo.png/4.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    color: white;
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc;
+    text-shadow: 0px 2px 0px #ccc;
+    text-shadow: 0px 3px 0px #ccc;
+    text-shadow: 0px 4px 0px #ccc;
+    text-shadow: 0px 5px 0px #ccc;
+             
+                 
+}
+#home p{
+    color: white;
+    font-size: 30px;
+}
+#home .input-group{
+    height: 45px;
+    width: 40%;
+    
+}
+.signin{
+    background-color: green !important;
+    color: white!important;
+    
+}
+/* -----About ------*/
+#about{
+    color: white;
+    background-color:#e65c93;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 60px;
+} 
+/* -----product----- */
+#product{
+    background: #e5e5e5;
+}
+#product h1{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#product img{
+    width: 150px;
+    height: 150px;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background: #e5eee5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px   4px  10px white;
+    border-radius: 20px!important;  
+    overflow: hidden;    /* content outside pogama irukka */ 
+    justify-content: center;   
+    align-items: center;
+    margin: 20px 60px;  
+           
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px   -4px  10px white;
+    transition: 2s;            
+}
+/* ----contect--- */
+#contact{
+    height: 100%;
+}
+
+#contact input{
+    margin: 10px 20px;
+}
+#contact textarea{
+    margin: 10px 20px;
+}
+#contact button{
+    margin: 10px 20px;
+}
+/* --- footer----*/
+
+footer{
+    background-color: black;
+    padding-top: 50px;
+}
+.container1{
+    width: 100%;
+    height: 25%;
+    padding:0;
+    
+}
+
+.footernav{
+    margin:0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footernav ul li a:hover{
+    opacity: 1;
+    color: rgb(10, 235, 10);
+}
+.bottom-bar{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.bottom-bar p{
+    color: white;
+}
+
+
+ 
+
+
+
+
+
